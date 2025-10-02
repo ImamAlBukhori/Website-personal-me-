@@ -1,0 +1,73 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: linear-gradient(to right, #1abc9c, #16a085);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.profile img {
+  width: 160px;
+  border-radius: 10px;
+  border: 3px solid #1abc9c;
+}
+.profile-info {
+  margin-left: 20px;
+}
+.profile-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+h2 {
+  color: #16a085;
+  margin-top: 30px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #1abc9c;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  text-align: center;
+  background: #16a085;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
